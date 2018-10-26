@@ -34,7 +34,6 @@ function addFiles(pathName, fileName, codeToAdd){
             folders.forEach( function( folder, index ) {
                 console.dir(folder)
                 fs.stat( "./" + pathName + folder, function( error, stat ) {
-                    console.dir(stat)
                     if( error ) {
                         console.error( "Error stating file.", error );
                         return;
