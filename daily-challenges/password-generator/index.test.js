@@ -12,3 +12,7 @@ describe("Generate random characters in a string a specified number of times", (
         expect(generate(6)).not.toBe(generate(6))
     })
 })
+
+xdescribe("Extra Credit Challenges", () => {
+    // Your extra credit challenge tests here
+})
