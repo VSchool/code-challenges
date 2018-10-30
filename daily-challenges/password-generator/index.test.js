@@ -1,4 +1,4 @@
-const randomPasswordGenerator = require("./index").randomPasswordGenerator
+const generate = require("./index").randomPasswordGenerator
 
 describe("Generate random characters in a string a specified number of times", () => {
     test("Output is a string", () => {
