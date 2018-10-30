@@ -2,9 +2,14 @@ Given a string, remove any duplicate letters.
 
 #### Example:
 ```js
+// Test 1
 var input = "bookkeeper larry";
-
 // Output: "bokepr lay"
+
+// Test 2
+var input = "abc";
+// Output: "abc"
+
 ```
 
 #### Extra Credit:

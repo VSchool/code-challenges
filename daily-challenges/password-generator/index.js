@@ -1,9 +1,5 @@
-//your function(s) here
-
 function randomPasswordGenerator(number) {
-    
+    // Your code here
 }
 
-console.log(randomPasswordGenerator)
-
-module.exports = { randomPasswordGenerator };
+module.exports = { randomPasswordGenerator }
