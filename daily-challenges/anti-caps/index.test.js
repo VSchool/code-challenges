@@ -12,5 +12,5 @@ describe('Function will take a string and change each character from lower to up
 });
 
 xdescribe("Extra Credit Challenges", () => {
-    describe("Your extra credit challenge here", () => {})
+    // Your extra credit challenge tests here
 })
