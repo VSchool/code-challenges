@@ -1,8 +1,9 @@
 function isCaps(letter) {
-    return letter === letter.toUpperCase();
+    return letter === letter.toUpperCase()
 }
 
-// your function here
-
+function antiCaps(str) {
+    // Your code here
+}
 
 module.exports = { antiCaps }

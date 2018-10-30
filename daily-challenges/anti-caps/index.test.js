@@ -1,15 +1,19 @@
-const antiCaps = require('./index').antiCaps;
+const antiCaps = require("./index").antiCaps
 
-describe('Function will take a string and change each character from lower to uppercase or upper to lowercase', () => {
-    test('Output will be a string', () => {
-        expect(typeof antiCaps("qwerty")).toBe("string");
-        expect(typeof antiCaps("QWERTY")).toBe("string");
-    });
-    test('Input will have opposite caps from output', () => {
-        expect(antiCaps("Hello")).toBe("hELLO");
-        expect(antiCaps("TOTaLLy")).toBe("totAllY");
-    });
-});
+describe("Anti caps", () => {
+    test("Output will be a string", () => {
+        expect(typeof antiCaps("qwerty")).toBe("string")
+        expect(typeof antiCaps("QWERTY")).toBe("string")
+    })
+    test("Output will flip the caps of the input", () => {
+        expect(antiCaps("Hello")).toBe("hELLO")
+        expect(antiCaps("TOTaLLy")).toBe("totAllY")
+        expect(antiCaps("a")).toBe("A")
+    })
+    test("Function still works when punctuation is included", () => {
+        expect(antiCaps("hi!")).toBe("HI!")
+    })
+})
 
 xdescribe("Extra Credit Challenges", () => {
     // Your extra credit challenge tests here
