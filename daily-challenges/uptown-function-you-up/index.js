@@ -1,5 +1,16 @@
-// your function(s) here
+function getString() {
+    // Function 1 here
+}
 
+function reverse() {
+    // Function 2 here
+}
+
+function everyOther() {
+    // Function 3 here
+}
+
+// DO NOT change anything in this array
 var lyrics = [
     "This",
     "hit",
