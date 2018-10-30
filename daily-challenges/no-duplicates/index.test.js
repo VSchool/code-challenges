@@ -1,14 +1,20 @@
-const functionsToTest = require('./index');
+const { noDuplicates } = require("./index")
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
-
-
-// Create function that accepts a string.
-// Create variable that stores the string without duplicates.
-// Create a variable that stores the letters removed.
-// Have the function return the string without duplicate letters
-// Create another function that returns the letters removed.
+describe("No duplicates", () => {
+    test("Duplicates are successfully removed", () => {
+        const str = "bookkeeper larry"
+        const expected = "bokepr lay"
+        const actual = noDuplicates(str)
+        expect(actual).toBe(expected)
+    })
+    test("Function returns a string", () => {
+        const str = "bookkeeper larry"
+        const result = noDuplicates(str)
+        expect(typeof result).toBe("string")
+    })
+    test("Input already with no duplicates returns same string", () => {
+        const str = "abc"
+        const result = noDuplicates(str)
+        expect(result).toBe(str)
+    })
+})
