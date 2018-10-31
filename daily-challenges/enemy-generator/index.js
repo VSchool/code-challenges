@@ -1,24 +1,27 @@
-//your function(s) here
-
-function getEnemyType(){
-    
+function getEnemyType() {
+    // Your code here
 }
 
-function getHitPoints(type){
-    
+function getHitPoints(type) {
+    // Your code here
 }
 
-function getDefense(hitPoints){
-
+function getDefense(hitPoints) {
+    // Your code here
 }
 
-function Enemy(){
-
+function Enemy() {
+    // Your code here
 }
 
-function enemyGenerator(){
-    
+function enemyGenerator() {
+    // Your code here
 }
 
-
-module.exports = { enemyGenerator, Enemy, getDefense, getHitPoints, getEnemyType }
+module.exports = {
+    enemyGenerator,
+    Enemy,
+    getDefense,
+    getHitPoints,
+    getEnemyType
+}
