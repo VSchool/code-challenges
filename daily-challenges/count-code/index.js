@@ -1,7 +1,5 @@
-//your function(s) here
-
-function countCode(string) {  
-  
+function countCode(string) {
+    // Your code here
 }
 
 module.exports = { countCode }
