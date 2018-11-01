@@ -15,5 +15,3 @@ function countCode(string) {
 
 #### Extra credit
 * Allow any uppercase characters to substitute for "c" 
-* If both "c" and "d" are substituted with uppercase characters, multiply the count by two.
-* If the string contains a palindrome, add the length of the palindrome to the count.
