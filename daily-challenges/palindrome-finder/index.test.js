@@ -1,9 +1,13 @@
-const { palindromeFinder } = require('./index')
+const { palindromeFinder } = require("./index")
 
 describe("Palindrome Finder", () => {
     test("Palindrome entries return 'true'", () => {
         expect(palindromeFinder("Star Rats!")).toBe(true)
-        expect(palindromeFinder("I madam, I made radio! So I dared! Am I mad?? Am I?!")).toBe(true)
+        expect(
+            palindromeFinder(
+                "I madam, I made radio! So I dared! Am I mad?? Am I?!"
+            )
+        ).toBe(true)
     })
 
     test("Function returns a string", () => {
@@ -18,4 +22,4 @@ describe("Palindrome Finder", () => {
         const actual = palindromeFinder(str)
         expect(actual).toBe(expected)
     })
-});
+})

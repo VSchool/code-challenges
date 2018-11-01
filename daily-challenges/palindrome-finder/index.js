@@ -1,7 +1,6 @@
-function palindromeFinder(str){
+function palindromeFinder(str) {
     // Your code here
 }
-
 
 module.exports = {
     palindromeFinder
