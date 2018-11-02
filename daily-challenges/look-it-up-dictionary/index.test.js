@@ -39,8 +39,8 @@ describe("Look it up", () => {
             }
         })
         test("definitions get returned", () => {
-            expect(lookUpWord("dog")).toBe("Nice")
-            expect(lookUpWord("frog")).toBe("Has warts")
+            expect(lookUpWord(dictionary, "dog")).toBe("Nice")
+            expect(lookUpWord(dictionary, "frog")).toBe("Has warts")
         })
     })
 })
