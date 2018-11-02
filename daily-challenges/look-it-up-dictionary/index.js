@@ -1,13 +1,13 @@
-//your function(s) here
+dictionaryObj = {}
 
-dictionaryObj = {};
-
-function addWord(word, definition){
-   
+function addWord(dictionary, word, definition) {
+    // Your code here
 }
 
-function lookupWord(word){
-    
+function lookUpWord(dictionary, word) {
+    // Your code here
 }
 
-module.exports = { dictionaryObj, addWord, lookupWord }
+// Your `readline-sync` and the rest of your code goes below this line
+
+module.exports = { addWord, lookUpWord }

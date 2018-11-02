@@ -1,26 +1,50 @@
-const { dictionaryObj, addWord, lookupWord } = require('./index');
+const { addWord, lookUpWord } = require("./index")
 
-describe('addWord', () => {
-    test('Adding words updates object', () => {
-        doActions(addWord("dog", "fun"))
-        expect(dictionaryObj).toEqual({dog: "fun"}); 
-    });
-    test("words are stored lower cased", ()=>{
-        doActions(addWord("Dog", "fun"))
-        expect(dictionaryObj).toEqual({dog: "fun"});  
+describe("Look it up", () => {
+    let dictionary
+    describe("addWord", () => {
+        beforeEach(() => {
+            dictionary = {}
+        })
+        test("adding words updates object", () => {
+            addWord(dictionary, "dog", "Fun")
+            expect(dictionary).toEqual({ dog: "Fun" })
+        })
+        test("words are stored lower cased", () => {
+            addWord(dictionary, "Dog", "Fun")
+            expect(dictionary).toEqual({ dog: "Fun" })
+        })
+        test("doesn't add same word twice", () => {
+            addWord(dictionary, "dog", "Fun")
+            addWord(dictionary, "dog", "FUN")
+            expect(dictionary).toEqual({ dog: "Fun" })
+        })
+        test("doesn't add same word even if it has different capitalization", () => {
+            addWord(dictionary, "dog", "Fun")
+            addWord(dictionary, "Dog", "Fun")
+            expect(dictionary).toEqual({ dog: "Fun" })
+        })
+        test("can add multiple words", () => {
+            addWord(dictionary, "dog", "Fun")
+            addWord(dictionary, "cat", "Mean")
+            expect(dictionary).toEqual({ dog: "Fun", cat: "Mean" })
+        })
     })
-    test("definitions are stored lower cased", ()=>{
-        doActions(addWord("dog", "FUN"))
-        expect(dictionaryObj).toEqual({dog: "fun"});  
-    })
-});
 
-describe('lookupWord', () => {
-    test("added words will be recalled", () => {
-        addWord("dog", "nice")
-        expect(lookupWord("dog")).toBe("nice")
-        addWord("frog", "has warts")
-        expect(lookupWord("frog")).toBe("has warts")
+    describe("lookupWord", () => {
+        beforeEach(() => {
+            dictionary = {
+                dog: "Nice",
+                frog: "Has warts"
+            }
+        })
+        test("definitions get returned", () => {
+            expect(lookUpWord("dog")).toBe("Nice")
+            expect(lookUpWord("frog")).toBe("Has warts")
+        })
     })
 })
 
+xdescribe("Extra credit challenges", () => {
+    // Your extra credit challenge tests here
+})
