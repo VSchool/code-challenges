@@ -1,7 +1,13 @@
-const functionsToTest = require('./index');
+const { combined } = require("./index");
 
-describe('Adds', () => {
-    test('adds 1 + 2 to equal 3', () => {
-        expect(functionsToTest.sum(1, 2)).toBe(3);
-    });
-});
+describe("Combined", () => {
+
+    test("Function should return an array", () => {
+        
+    })
+
+    test("Function returns expected result", () => {
+        // Use test case from README.md, then create a few test cases of your own
+    })
+
+})
