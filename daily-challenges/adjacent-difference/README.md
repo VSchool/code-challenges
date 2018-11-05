@@ -3,14 +3,12 @@ Given an array of strings, find the 3 adjacent elements with the longest combine
 #### Example
 
 ```js
-// Test
-const input = ["this", "is", "an", "array"]
-
 function combined(arr){
     // Find the 3 adjacent elements with longest combined length
 }
 
-combined(input)
+combined(["this", "is", "an", "array"])
 // Output:  ["is", "an", "array"]
-    // they have the longest combined length of any 3 adjacent elements.
+    // they have the longest combined length of any 3 adjacent elements. (9 characters)
+    // In contract, ["this", "is", "an"] only has a combined length of 8 characters
 ```
