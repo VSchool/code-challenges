@@ -1,6 +1,5 @@
-//your function(s) here
-
-module.exports.sum = function (a, b) {
-    return a + b;
+function combined(){
+    // Your code here
 }
 
+module.exports = { combined }
