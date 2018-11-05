@@ -1,7 +1,12 @@
-const functionsToTest = require('./index');
+const { balanceParentheses } = require("./index")
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Balance Parentheses", () => {
+    test("The output will be a boolean", () => {
+        // Your test logic here
+    })
+
+    test("The function returns the correct value against all test cases", () => {
+        // Your test logic here
+        // Use the 5 test cases from the README.md
+    })
+})
