@@ -1,16 +1,17 @@
 {
-  "name": "code-challenges",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^23.6.0",
-    "prettier": "^1.14.3"
-  }
+    "name": "code-challenges",
+    "version": "1.0.0",
+    "description": "V School's list of daily code challenges. Make sure you're testing your solutions again the tests, or writing your own tests when required.",
+    "repository": "https://github.com/VSchool/code-challenges",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^23.6.0",
+        "prettier": "^1.14.3"
+    }
 }

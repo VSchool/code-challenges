@@ -1,5 +1,5 @@
-function arrayIndex(str) {
+function letterFrequency(str) {
     // Your code here
 }
 
-module.exports = { arrayIndex }
+module.exports = { letterFrequency }
