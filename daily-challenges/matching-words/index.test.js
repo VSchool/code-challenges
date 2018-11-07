@@ -1,7 +1,19 @@
-const functionsToTest = require('./index');
+const { matchingWords } = require("./index")
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Matching Words", () => {
+    test("Returns an array", () => {
+        // Your test code here
+    })
+
+    test("Repeated words only exist once in returned array", () => {
+        // Your test code here
+    })
+
+    test("Returns the expected message", () => {
+        // Your test code here
+    })
+})
+
+xdescribe("Extra Credit Challenges", () => {
+    // Your extra credit tests here
+})
