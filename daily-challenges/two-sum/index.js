@@ -1,4 +1,4 @@
-function twoSum(arr){
+function twoSum(arr) {
     // Your code here
 }
 
