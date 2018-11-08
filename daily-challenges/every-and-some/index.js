@@ -1,8 +1,8 @@
-function every(arr, callback){
+function every(arr, callback) {
     // Your code here
 }
 
-function some(arr, callback){
+function some(arr, callback) {
     // Your code here
 }
 
