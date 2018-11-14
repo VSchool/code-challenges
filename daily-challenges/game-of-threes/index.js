@@ -1,1 +1,5 @@
-//your function(s) here
+function gameOfThrees(n, counter){
+
+}
+
+module.exports = { gameOfThrees }
