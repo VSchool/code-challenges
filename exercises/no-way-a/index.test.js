@@ -4,7 +4,7 @@ describe("RemoveA function", () => {
 
     test("removes all characters 'a'in a given string", () => {
         expect(removeA("absolutely")).toBe("bsolutely")
-        expect(removeA("always a good time")).toBe("lwys  good time")
+        expect(removeA("Always a good time")).toBe("lwys  good time")
     })
 
 })
