@@ -1,7 +1,13 @@
-const functionsToTest = require('./index');
+const { stringifyUrl, makeQueryObject } = require('./index');
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Query Practice functions", () => {
+
+    describe("Stringify Url function", () => {
+        // Write your tests here
+    })
+
+    describe("Make Query Object function", () => {
+        // Write your tests here
+    })
+
+})
