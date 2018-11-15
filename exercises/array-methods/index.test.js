@@ -1,7 +1,12 @@
-const functionsToTest = require('./index');
+const { arrayMethods } = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Array methods exercise", () => {
+   
+    test("function returns correct string after all methods are performed", () => {
+        let fruit = ["banana", "apple", "orange", "watermelon"];
+        let vegetables = ["carrot", "tomato", "pepper", "lettuce"];
+
+        expect(arrayMethods(fruit, vegetables)).toBe("3,pepper,1,watermelon,orange,apple")
+    })
+
+})
