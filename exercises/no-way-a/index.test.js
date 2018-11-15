@@ -1,7 +1,10 @@
-const functionsToTest = require('./index');
+const { removeA } = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("RemoveA function", () => {
+
+    test("removes all characters 'a'in a given string", () => {
+        expect(removeA("absolutely")).toBe("bsolutely")
+        expect(removeA("always a good time")).toBe("lwys  good time")
+    })
+
+})
