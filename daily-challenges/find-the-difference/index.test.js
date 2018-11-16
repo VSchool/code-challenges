@@ -1,7 +1,11 @@
-const functionsToTest = require('./index');
+const { findTheDifference } = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Find the difference function", () => {
+    // Write your tests here
+
+
+    xdescribe("Extra credit challenge", () => {
+
+    })
+
+})
