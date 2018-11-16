@@ -1,4 +1,4 @@
-var users = [
+const users = [
     {
         firstName: "Billy",
         lastName: "Madison", 

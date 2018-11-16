@@ -3,7 +3,7 @@ Write a function that takes two parameters, an array of user objects and a boole
 
 Try to do this without using Array.sort().
 ```js
-var users = [
+const users = [
     {
         firstName: "Billy",
         lastName: "Madison", 
