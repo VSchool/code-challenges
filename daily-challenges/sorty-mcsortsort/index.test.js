@@ -1,5 +1,5 @@
 const { sortyMcSortSort } = require('./index');
 
-describe("Sorty Mc Sort Sort function", () => {
+describe("Sorty McSortSort function", () => {
     // Your tests here
 })
