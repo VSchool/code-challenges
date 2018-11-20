@@ -9,8 +9,8 @@ function stringifyUrl(url, query) {
 
 const url = "http://localhost:8080/monkeys"
 const query = {
-  color: "black",
-  species: "howler"
+    color: "black",
+    species: "howler"
 }
 
 stringifyUrl(url, query)
