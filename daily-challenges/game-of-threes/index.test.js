@@ -1,7 +1,5 @@
-const functionsToTest = require('./index');
+const { gameOfThrees } = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Game Of Threes", () => {
+    // Write your tests here
+})
