@@ -9,27 +9,28 @@ const {
 
 describe("Functions Exercise", () => {
 
-    describe("Sum function", () => {
+    describe("sum function", () => {
         test("returns the sum of two numbers", () => {
             expect(sum(3, 5)).toBe(8)
+            expect(sum(-1, -1)).toBe(-2)
         })
     })
 
-    describe("LargestNum function", () => {
+    describe("largestNum function", () => {
         test("returns the largest of 3 numbers", () => {
             expect(largestNum(5, 2, 6)).toBe(6)
-            expect(largestNum(499, 233, 450)).toBe(499)
+            expect(largestNum(499, -500, 450)).toBe(499)
         })
     })
 
-    describe("EvenOrOdd function", () => {
+    describe("evenOrOdd function", () => {
         test("returns a string 'even' or 'odd' depending on the given number", () => {
             expect(evenOrOdd(3)).toBe("odd")
             expect(evenOrOdd(10)).toBe("even")
         })
     })
 
-    describe("ManipulateString function", () => {
+    describe("manipulateString function", () => {
         test("if the string length is less than or equal to 20, return the string + string", () => {
             expect(manipulateString("Howdy!")).toBe("Howdy!Howdy!")
         })
@@ -39,17 +40,17 @@ describe("Functions Exercise", () => {
     })
 
     // Remove the 'x' to have the test run
-    xdescribe("Print Fibonacci Number function", () => {
+    xdescribe("printFibonacciNum function", () => {
         test("it returns the sum of the first 'n' fibonacci numbers", () => {
-            expect(printFibonacciNum(5)).toBe(12)
             // The first 5 fibonacci numbers are 1, 1, 2, 3, 5
             // Added together the final is 12
+            expect(printFibonacciNum(5)).toBe(12)
             expect(printFibonacciNum(20)).toBe(17710)
         })
     })
 
     // Remove the 'x' to have the test run
-    xdescribe("Most Frequent Letter function", () => {
+    xdescribe("mostFrequentLetter function", () => {
         test("returns the character that occurs the most in the string", () => {
             expect(mostFrequentLetter("whatever")).toBe("e")
             expect(mostFrequentLetter("what is your quest?")).toBe(" ")
