@@ -2,6 +2,7 @@ Given a query object and an array of objects, write a function that returns an a
 
 If the query object is empty, return the entire array.
 If the array contains no matches, return an empty array
+
 #### Example:
 ```js
 const database = [
@@ -11,16 +12,21 @@ const database = [
     {firstName: "Jack", lastName: "White", age: 2}
 ];
 
+// ----------------------------
+// returns entire database array
 filterDatabase({}, database);
-    //returns entire database array
 
+// ------------------
+// returns empty array
 filterDatabase({dolphin: "squeak!"}, database);
-    //returns empty array
 
-filterDatabase({firstName: "Jack", age: 2}, database);
-    //returns 
+// -------------------------
+/* 
+returns the following array:
 [
     {firstName: "Jack", lastName: "Smith", age: 2},
     {firstName: "Jack", lastName: "White", age: 2}
 ]
+*/
+filterDatabase({firstName: "Jack", age: 2}, database);
 ```
