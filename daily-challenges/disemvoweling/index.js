@@ -1,1 +1,5 @@
-//your function(s) here
+function disemvoweling(str){
+    // Your code here
+}
+
+module.exports = { disemvoweling }
