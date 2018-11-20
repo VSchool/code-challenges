@@ -1,4 +1,4 @@
-Write a function that takes two arrays as parameters.  The first array will be an array of people's names, and the second array will be the alphabet.  Using a for loop within a for loop create and return array that looks like this:
+Write a function that takes two arrays as parameters.  The first array will be an array of people's names, and the second array will be the alphabet.  Using a for loop within a for loop, create and return array that looks like this:
 
 ```js
 function forception(people, alphabet){
