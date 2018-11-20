@@ -1,6 +1,5 @@
-
 #### Part 1
-Write a function that takes a query object and an HTTP endpoint and then returns a URL with a query string.
+Write a function that takes a string URL and a query object and returns the URL with a query string added.
 
 #### Example:
 ```js
@@ -21,4 +20,3 @@ stringifyUrl(url, query)
 #### Part 2
 
 Write a function that does the opposite from above: given a valid URL with a query string attached, return a query object.
-
