@@ -1,4 +1,4 @@
-Create a function that removes all vowels and spaces from a string. The function should then return the result as an object with two keys "str" and "vowels".
+Create a function that removes all vowels and spaces from a string. The function should then return the result as an object with two keys "consonants" and "vowels".
 
 #### Example
 
@@ -12,7 +12,7 @@ function disemvoweling(string){
 disemvoweling(input)
 // Output:
 // {
-//   str: "pcklrck!",
+//   consonants: "pcklrck!",
 //   vowels: "iei"
 // }
 ```
