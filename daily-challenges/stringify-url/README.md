@@ -18,5 +18,4 @@ stringifyUrl(url, query)
 ```
 
 #### Part 2
-
 Write a function that does the opposite from above: given a valid URL with a query string attached, return a query object.
