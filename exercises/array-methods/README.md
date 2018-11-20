@@ -4,7 +4,9 @@ Create a new JavaScript file and put these two arrays at the beginning. You will
 var fruit = ["banana", "apple", "orange", "watermelon"];
 var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
 ```
-After every command, console.log() your arrays. A good way to do that is to use:
+
+After every command, use `console.log()` to inspect your arrays. A good way to do that is to do something like:
+
 ```js
 console.log("fruit: ", fruit);
 console.log("vegetables: ", vegetables);
@@ -21,7 +23,7 @@ console.log("vegetables: ", vegetables);
 9. Reverse your array.
 10. Turn the array into a string and return it.
 
-If you've done everything correctly, the last step should print the following to the console:
+If you've done everything correctly, the last step should print the following string to the console:
 
 ```js
 3,pepper,1,watermelon,orange,apple
