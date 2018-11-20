@@ -8,11 +8,9 @@ function stringifyUrl(url, query){
     // Your code here
 }
 
-
 function makeQueryObject(url){
     // Your code here
 }
-
 
 module.exports = {
     stringifyUrl,
