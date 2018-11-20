@@ -7,7 +7,7 @@ const {
 
 
 describe("For Loop Exercise", () => {
-   
+
     describe("Add Letters to Array", () => {
         test("it returns an array", () => {
             expect(addLettersToArray("Hello")).toBeInstanceOf(Array)
@@ -19,13 +19,13 @@ describe("For Loop Exercise", () => {
         })
     })
 
-    describe("Posititon of First Occurance", () => {
+    describe("Position of First Occurrence", () => {
         test("returns index of where character first occurs", () => {
             expect(positionOfFirstOccurance("hello", "l")).toBe(2)
             expect(positionOfFirstOccurance("whatever", "v")).toBe(5)
         })
 
-        test("returns 'Character not found!' if no occurrance of character", () => {
+        test("returns 'Character not found!' if no occurrence of character", () => {
             expect(positionOfFirstOccurance("goodbye", "z")).toBe("Character not found!")
         })
     })
