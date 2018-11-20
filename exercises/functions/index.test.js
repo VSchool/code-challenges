@@ -4,4 +4,3 @@ xdescribe('All tests in this describe will be skipped. Remove the "x" from "desc
     test('This test will be skipped', () => {
         expect(true).toBe(true);
     });
-});
