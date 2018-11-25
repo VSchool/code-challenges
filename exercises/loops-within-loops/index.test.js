@@ -15,7 +15,7 @@ describe("Forception", () => {
     "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", 
     "V", "W", "X", "Y", "Z"]
 
-    test("returns array of names separated by alphabet", () => {
+    test("returns array of names separated by uppercased alphabet letters", () => {
         expect(actual).toEqual(expected)
     })
 })
