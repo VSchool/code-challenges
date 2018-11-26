@@ -1,7 +1,11 @@
-const functionsToTest = require('./index');
+const { caeserCipher } = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Caeser Cipher", () => {
+
+    test("returns phrase with letters shifted by given shift amount", () => {
+        expect(caeserCipher("Hello", 2)).toBe("jgnnq")
+        expect(caeserCipher("V School is Awesome!", 11)).toBe("g dnszzw td lhpdzxp!")
+        expect(caeserCipher("xyz! @abc", 5)).toBe("cde! @fgh")
+    })
+
+})
