@@ -3,7 +3,7 @@ function doubleNumbers(arr){
 
 }
 
-///Take an array of numbers and make them strings
+// Take an array of numbers and make them strings
 function stringItUp(arr){
 
 }

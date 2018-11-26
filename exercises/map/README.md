@@ -6,7 +6,7 @@ function doubleNumbers(arr){
 
 }
 
-doubleNumbers([2, 5, 100]); // [4, 10, 200]
+doubleNumbers([2, 5, 100]) // [4, 10, 200]
 ```
 
 2) Take an array of numbers and make them strings
@@ -15,7 +15,7 @@ function stringItUp(arr){
 
 }
 
-stringItUp([2, 5, 100]); // ["2", "5", "100"]
+stringItUp([2, 5, 100]) // ["2", "5", "100"]
 ```
 
 3) Capitalize each of an array of names
@@ -24,7 +24,7 @@ function capitalizeNames(arr){
 
 }
 
-capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]); // ["John", "Jacob", "Jingleheimer", "Schmidt"]
+capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]) // ["John", "Jacob", "Jingleheimer", "Schmidt"]
 ```
 
 4) Make an array of strings of the names
