@@ -1,11 +1,11 @@
 // Turn an array of numbers into a total of all the numbers
 function total(arr) {
-    
+    // Your code here
 }
 
 // Turn an array of numbers into a long string of all those numbers.
 function stringConcat(arr) {
-    
+    // Your code here
 }
 
 // Turn an array of voter objects into a count of how many people voted
@@ -25,7 +25,7 @@ var voters = [
 ]
 
 function totalVotes(arr) {
-    
+    // Your code here
 }
 
 
@@ -39,7 +39,7 @@ var wishlist = [
 ]
 
 function shoppingSpree(arr) {
-    
+    // Your code here
 }
 
 
@@ -51,7 +51,7 @@ var arrays = [
 ]
 
 function flatten(arr) {
-    
+    // Your code here
 }
 
 
@@ -76,8 +76,9 @@ var voters = [
 ]
 
 function voterResults(arr) {
-
+    // Your code here
 }
+
 
 
 module.exports = {
