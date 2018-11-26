@@ -1,7 +1,36 @@
-const functionsToTest = require('./index');
+const {
+    total,
+    stringConcat,
+    totalVotes,
+    shoppingSpree,
+    flatten,
+    voterResults
+} = require("./index");
 
-xdescribe('All tests in this describe will be skipped. Remove the "x" from "describe" to turn them on', () => {
-    test('This test will be skipped', () => {
-        expect(true).toBe(true);
-    });
-});
+describe("Array Reduce Exercise", () => {
+   
+    describe("Total function", () => {
+        // Your tests here
+    })
+
+    describe("String Concat function", () => {
+        // Your tests here
+    })
+
+    describe("Total Votes function", () => {
+        // Your tests here
+    })
+
+    describe("Shopping Spree function", () => {
+        // Your tests here
+    })
+
+    describe("Flatten function", () => {
+        // Your tests here
+    })
+
+    describe("Voter Results function", () => {
+        // Your tests here
+    })
+
+})
