@@ -1,4 +1,4 @@
-Use the built-in .sort() method on arrays to solve all of these problems
+Use the built-in `.sort()` method on arrays to solve all of these problems
 
 1) Sort an array from smallest number to largest
 ```js
